@@ -9,7 +9,6 @@ let output1 = document.querySelector('output1');
 let output2 = document.querySelector('output2');
 
 
-
 function reversal() {
     output1.innerHTML = input.value.split('').reverse().join('')
     }
@@ -28,25 +27,25 @@ input.addEventListener('keypress', (e) => {
 
 
 
-    let key = e.which || e.keyCode
+    let key = e.which || e.keyCode;
     if (key === 13) {
-        testString = input.value
+        testString = input.value;
         reversal(testString);
         alphabits(testString);
         palindrome(testString);
 
     }
-})
+});
 
 input.addEventListener('keypress', (e) => {
-    let key = e.which || e.keyCode
+    let key = e.which || e.keyCode;
     if (key === 13) {
-        testString = input.value
+        testString = input.value;
         reversal(testString);
         alphabits(testString);
         palindrome(testString);
     }
-})
+});
 
 
 
