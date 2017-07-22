@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="strings.css">
 </head>
 <body>
+<form onsubmit="return false" >
+    <div id="container">
+        <input type="text" title="Letters-only" pattern="[a-zA-Z]+" required>
+        <button type="submit">Do It!</button>
+        <output></output>
+        <output1></output1>
+        <output2></output2>
 
-<div id="container">
-    <input type="text" pattern="[a-zA-Z]+" required>
-    <button type="submit">Do It!</button>
-    <output></output>
-    <output1></output1>
-    <output2></output2>
-
-</div>
+    </div>
+</form>
 <script src="strings.js"></script>
 </body>
 </html>
